@@ -11,6 +11,8 @@
 # production
 /build
 
+/src/config/googleSheetKey.js
+
 # misc
 .DS_Store
 .env.local

@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import dotenv from 'dotenv'
+
+import configureApp from './config/conifigureApp'
+import Overview from './components/Overview'
+
+import './App.css'
+
+dotenv.config()
+configureApp()
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Overview />
     </div>
   );
 }
 
-export default App;
+export default App

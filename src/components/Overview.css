@@ -1,0 +1,28 @@
+.Overview {
+
+}
+
+.Overview > .weekly-overview {
+
+}
+
+.Overview > .weekly-overview > .list {
+  list-style: none;
+  padding-inline-start: 0;
+  padding: 0 2rem;
+}
+
+.Overview > .weekly-overview > .list > .heading {
+  display: flex;
+  font-weight: 600;
+  font-size: large;
+  margin: 1rem 0;
+}
+
+.Overview > .weekly-overview > .list > .row {
+  display: flex;
+  margin: 1rem 0;
+  background-color: #e8e8e8;
+  border-radius: 3px;
+  padding: 1rem 0;
+}
